@@ -15,8 +15,8 @@ load_dotenv()
 st.set_page_config(page_title="Music Recommendations from your Playlists", page_icon="🎵")
 
 # Spotify API Configuration
-CLIENT_ID = os.getenv('CLIENT_ID')
-CLIENT_SECRET = os.getenv('CLIENT_SECRET')
+CLIENT_ID = '965679437ffd487ca3e73347eb1b0a64'
+CLIENT_SECRET = '5ceef646d96c43d0bd93f8c0a5e87d06'
 REDIRECT_URI = 'https://mbalajiviswanadh-music-recommendation-based-on-tun-music-huubkk.streamlit.app/'
 AUTH_URL = 'https://accounts.spotify.com/authorize'
 TOKEN_URL = 'https://accounts.spotify.com/api/token'
